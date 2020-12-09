@@ -23,12 +23,12 @@ const Map = () => {
           })
         } // can insert object || true
         position={{ lat: 1.4802729364769138, lng: 103.38727170083912 }}
-        icon={
-          {
-            // url: "/someimage.svg",
-            // scaledSize: new window.google.maps.Size(25, 25)
-          }
-        }
+        // icon={
+        //   {
+        //     url: "/someimage.svg",
+        //     scaledSize: new window.google.maps.Size(25, 25)
+        //   }
+        // }
       />
       {selectedPlace && (
         <InfoWindow
